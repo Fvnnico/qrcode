@@ -1,18 +1,19 @@
 body{
-    background-color: blueviolet;
+    background-color: hsl(212, 45%, 89%);
     font-size: 15px;
-    font-family: O;
+    font-family: 'Outfit';
 }
 
 
-.contenitore{
+.container{
     background-color: white;
     border-radius: 10px;
     width: 400px;
     height: 500px;
     position: absolute;
-    top: 20%;
-    left: 38%;
+    top: 10%;
+    left: 36%;
+    box-shadow: 1px 2px 1px 1px rgba(49, 49, 49, 0.158);
 }
 
 
@@ -23,4 +24,30 @@ body{
     border-radius: 10px;
     margin-left: 15px;
     margin-top: 15px;
+}
+
+
+.text-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.title{
+    font-size: 27px;
+    font-weight: 700;
+    text-align:center;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text{
+    margin-top: 20px;
+    font-weight: 400;
+    color: rgb(99, 82, 82);
+    text-align: center;
+    margin:30px 30px;
 }
