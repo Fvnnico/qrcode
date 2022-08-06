@@ -4,53 +4,44 @@ body{
     font-family: 'Outfit';
     margin: 0;
     padding: 0;
+    max-width: 1440px;
 }
-
 
 .container{
-    background-color: white;
-    border-radius: 10px;
-    width: 400px;
-    height: 500px;
-    position: absolute;
-    top: 10%;
-    left: 33%;
-    box-shadow: 1px 2px 1px 1px rgba(49, 49, 49, 0.158);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 340px;
+    position: relative;
+    top:  8vh;
+    left: calc(50% - 170px);
+    right: 0;
+    bottom: 0;
+    box-shadow: 1px 1px 1px 1px rgba(39, 38, 38, 0.144);
 }
-
 
 .qrcode{
-    width: 370px;
-    height: 300px;
-    object-fit: cover;
+    width: 300px;
+    margin: 20px;
     border-radius: 10px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-
-.text-container{
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
 }
 
 .title{
-    font-size: 27px;
+    font-size: 23px;
     font-weight: 700;
-    text-align:center;
-    margin-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 15px 20px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+.text{
+    font-weight: 400;
+    margin: 15px 40px 20px 40px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    
+    padding-bottom: 30px;
 }
 
-.text{
-    margin-top: 20px;
-    font-weight: 400;
-    color: rgb(99, 82, 82);
-    text-align: center;
-    margin:30px 30px;
-    
+
+@media(max-width: 375px){
+
 }
