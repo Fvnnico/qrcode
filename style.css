@@ -6,7 +6,9 @@ body{
 .contenitore{
     background-color: white;
     border-radius: 4px;
-    width: 500px;
-    height: 300px;
-    
+    width: 576px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
