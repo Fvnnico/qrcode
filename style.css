@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+
+
+.contenitore{
+    background-color: white;
+    border-radius: 4px;
+    width: 500px;
+    height: 300px;
+    
+}
