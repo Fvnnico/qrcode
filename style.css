@@ -1,14 +1,26 @@
 body{
     background-color: blueviolet;
+    font-size: 15px;
+    font-family: O;
 }
 
 
 .contenitore{
     background-color: white;
-    border-radius: 4px;
-    width: 576px;
-    height: 400px;
-    position: relative;
-    top: 50%;
-    left: 50%;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+
+.qrcode{
+    width: 370px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
